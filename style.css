@@ -1,0 +1,79 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.container{margin-bottom: 40px;}
+.navbar img{width: 70%;}
+.nav-link{color: #666666;font-weight: 500;}
+.buy-now-button{
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    border-radius: 8px;
+}
+.slider{
+    height: 75vh;
+    background-image: url(hot-gadgets/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slider2{
+    height: 100vh;
+    background-image: url(hot-gadgets/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+i{color: #fff;}
+.card img{
+    width: 50%;
+}
+.phones h4{padding-bottom: 10px;}
+.card{padding: 35px 10px;box-shadow: 5px 5px 10px rgb(177, 174, 174);border: none;margin: 0 20px;}
+
+.card h5{padding-top: 20px;}
+.card p{color: #828080;padding: 10px 0;}
+.see_all{
+    color: #cb7607;
+}
+.order img{
+    width: 100%;
+}
+.mid-img img{margin: 20px 0px;}
+
+.catagories .card{
+    padding: 50px;
+}
+.card1{
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 25px;
+}
+.card2, .card3{
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 25px;
+}
+.catagories{margin-top: 70px;}
+.cat-txt{
+    text-align: center;
+}
+.cat-txt::after{
+    content: " ";
+    background-image: linear-gradient(to left, orange, #bdca67);
+    height: 5px;
+    width: 7%;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar-collapse{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .container{margin-left: 5px; margin-right: 5px;}
+    .phones{margin-top: 150px;}
+    .card{margin: 0 auto; margin-bottom: 20px;}
+    .mid-img img{margin: 0 auto;margin-bottom: 20px;}
+
+}
